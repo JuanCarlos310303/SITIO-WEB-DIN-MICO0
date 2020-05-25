@@ -1,0 +1,33 @@
+body{
+    background: #FF4E50;
+    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50); 
+    background: linear-gradient(to right, #F9D423, #FF4E50);
+    }
+table {
+    width: 80%;
+    height: 75px;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-size: 40px;
+}
+button{
+    
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+  }

@@ -1,0 +1,69 @@
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tabla{
+    width: 25%;
+    height: 400px;
+    margin: auto;
+    border: 1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #343759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343759;
+}
+.tabla>h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.tabla img{
+    width: 64px;
+    margin-bottom: 35px;
+}
+.tabla>h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.tabla>p{
+    display: block;
+    margin-bottom: 20px;
+}
+.tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: 1s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width: none;
+        flex-grow: initial;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        padding: 30px;
+    }
+    .tabla>h2{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 500px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+
+    }
+}
